@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<!--
+	Telephasic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>21Takes</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/logo.png" type="image/x-icon">
+	<meta name="robots" content="noindex, nofollow">
+</head>
+
+<body class="homepage is-preload">
+	
+		<!-- Header -->
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<!-- Logo -->
+				<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="21Takes logo"></a></h1>
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li>
+							<a href="#">Menu</a>
+							<ul>
+								<li><a href="#">New Menu</a></li>
+								<li><a href="#">Food Menu</a></li>
+								<li><a href="#">Drinks Menu</a></li>
+								<li><a href="#">Promos</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Location</a>
+							<ul>
+								<li><a href="#">Sunset Road</a></li>
+								<li><a href="#">Green Elephant City</a></li>
+								<li><a href="#">Gardania</a></li>
+								<li><a href="#">Meribella</a></li>
+							</ul>
+						</li>
+						<li class="break"><a href="#">Private Jet</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+			<!-- Hero -->
+			<section id="hero" class="container">
+				<header>
+					<h2>21Takes</h2>
+				</header>
+				<p>Bringing warmth to families since 1999.</p>
+				<ul class="actions">
+					<li><a href="#" class="button">Book a table</a></li>
+				</ul>
+			</section>
+
+		</div>
+
+		<!-- About -->
+		<div id="about-wrapper">
+			<section class="about-img">
+				<img src="images/people eating steak.png">
+			</section>
+			<section class="about-text">
+				<p>21Takes operates as a family-style restaurant. 
+					Established in 1999, we aim to bring warmth to families and introduce new innovative dishes. 
+					We pioneered the steak dining experience in Indonesia, having locations in various regions.
+				</p>
+			</section>
+		</div>
+
+		<!-- Location section -->
+		<div class="wrapper-location">
+			<h1>Locations</h1>
+			<div class="container">
+				<div class="row">
+					<section class="col-6 feature">
+						<div class="image-wrapper first">
+							<a href="#" class="image featured first"><img src="images/location 1.png" alt="21Takes Sunset Road" /></a>
+						</div>
+						<header>
+							<h2>21Takes</h2>
+						</header>
+						<p>Sunset Road</p>
+					</section>
+					<section class="col-6 feature">
+						<div class="image-wrapper">
+							<a href="#" class="image featured"><img src="images/location 2.png" alt="21Takes Green Elephant City" /></a>
+						</div>
+						<header>
+							<h2>21Takes</h2>
+						</header>
+						<p>Green Elephant City</p>
+					</section>
+				</div>
+			</div>
+			<a href="#" class="button">Find more locations</a>
+		</div>
+
+		<!-- Menu -->
+		<div class="wrapper-menu">
+			<section class="container">
+				<header class="major">
+					<h2>Signature Menu</h2>
+				</header>
+				<div class="row features">
+					<section class="col-4 col-12-narrower feature">
+						<div class="image-wrapper first">
+							<a href="#" class="image featured"><img src="images/1.png" alt="" /></a>
+						</div>
+						<p>Premium Sirloin</p>
+					</section>
+					<section class="col-4 col-12-narrower feature">
+						<div class="image-wrapper">
+							<a href="#" class="image featured"><img src="images/2.png" alt="" /></a>
+						</div>
+						<p>Premium Tenderloin</p>
+					</section>
+					<section class="col-4 col-12-narrower feature">
+						<div class="image-wrapper">
+							<a href="#" class="image featured"><img src="images/3.png" alt="" /></a>
+						</div>
+						<p>Premium T-Bone</p>
+					</section>
+				</div>
+				<ul class="actions major">
+					<li><a href="#" class="button">View Menu</a></li>
+				</ul>
+			</section>
+		</div>
+
+		<div class="wrapper-vip">
+			<div class="wrapper-vip-text">
+				<h1>VIP <br> Room</h1>
+				<br>
+				<p>Eat, sing, and play!</p>
+			</div>
+			<div class="carousel-wrapper">
+    			<a class="carousel-btn" onclick="doBack()">❮</a>
+    				<div id="carousel-container" class="carousel-container"></div>
+  				<a class="carousel-btn" onclick="doNext()">❯</a>
+			</div>
+		</div>
+
+		<!-- Private Jet -->
+		<div class="wrapper-jet">
+			<a class="prev" onclick="prevSlide()">❮</a>
+			<div class="slideshow-container" id="slideshow-container"></div>
+			<a class="next" onclick="nextSlide()">❯</a>
+			<div class="wrapper-jet-text">
+				<h1>Private <br> Jet</h1>
+				<br>
+				<p>Your first-class <br>dining experience.</p>
+			</div>
+		</div>
+
+		<!-- Form -->
+		<div id="footer-wrapper">
+			<div id="footer" class="container">
+				<header class="major">
+					<h2>Review us!</h2>
+				</header>
+				<div class="row">
+					<section class="col-12">
+						<form method="post" action="#">
+							<div class="row gtr-50">
+								<div class="form-row">
+									<input name="name" placeholder="Name" type="text" required>
+									<input name="email" placeholder="Email" type="text" required>
+								</div>
+								
+								<div class="col-12">
+									<textarea name="message" placeholder="Message" required></textarea>
+								</div>
+								<div class="col-12">
+									<ul class="actions">
+										<li><input class="button" type="submit" value="Send Message" /></li>
+										<li><input class="button" type="reset" value="Clear form" /></li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</section>
+					
+				</div>
+			</div>
+			<br><br>
+			<div id="copyright" class="container">
+				<div class="footer-container">
+					<div class="footer-image">
+						<img src="images/logo.png">
+					</div>
+					<div class="list">
+						<ul>
+							<li><a href="">Menu</a></li>
+							<li><a href="">Location</a></li>
+							<li><a href="">Private Jet</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+					<div class="social-media">
+						<h2>Follow us:</h2><br>
+						<div class="icon">
+							<a href=""><img src="images/facebook.png"></a>
+							<a href=""><img src="images/whatsapp.png"></a>
+							<a href=""><img src="images/instagram.png"></a>
+							<a href=""><img src="images/tiktok.png"></a>
+							<a href=""><img src="images/youtube.png"></a>
+						</div>
+					</div>
+				</div>
+					<ul class="menu">
+						<li>&copy; 21Takes. All rights reserved.</li>
+						<li>Template: <a href="http://html5up.net">Telephasic (HTML5 UP)</a></li>
+						<li>Made by: Darlene Jovela Rachmat</li>
+					</ul>
+			</div>
+		</div>
+
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/carousel.js"></script>
+
+</body>
+
+</html>
