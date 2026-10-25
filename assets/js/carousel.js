@@ -85,7 +85,7 @@ function showSlides() {
 
     container.innerHTML = `
         <div class="slideshow-image">
-            <img src="${image.image}" style="width:100%">
+            <img src="${image.image}" style="width:100%" alt="Private jet images">
         </div>
     `;
 }
